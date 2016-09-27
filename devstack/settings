@@ -1,0 +1,8 @@
+#Local variables used by devstack, if these are set in the local.conf.
+#If these are set in the local.conf they will be over ridden.
+
+NEUTRON_SKELETON_EXTENSION_DIR=${NEUTRON_SKELETON_EXTENSION_DIR:-"$DEST/neutron-skeleton-extension"}
+
+NEUTRON_L2_EXT_PLUGIN=${NEUTRON_L2_EXT_PLUGIN:-"neutron_skeleton_extension.services.skeleton_port.skeleton_port_plugin.SkeletonPortPlugin"}
+
+NEUTRON_L3_EXT_PLUGIN=${NEUTRON_L3_EXT_PLUGIN:-"neutron_skeleton_extension.services.skeleton_router.skeleton_router_plugin.SkeletonRouterPlugin"}

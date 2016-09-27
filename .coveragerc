@@ -1,0 +1,6 @@
+[run]
+branch = True
+source = neutron_skeleton_extension
+
+[report]
+ignore_errors = True
